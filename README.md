@@ -6,7 +6,7 @@ Http Parser for C++11
 _7iHttp parser(mode = Http::Request /* or Http::Response */)
 ```
 
-### To parser a HTTP Request:
+### To parse a HTTP Request or Response:
 ``` c++
 string requestContent;
 parser.read(Http::Request /* or Http::Response */, requestContent);
